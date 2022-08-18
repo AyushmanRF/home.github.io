@@ -43,6 +43,8 @@ nav{
     position: fixed;
     width: 100%;
     line-height: 60px;
+    opacity: 100%;
+    z-index: 1;
     -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 }
@@ -186,7 +188,7 @@ subset=devanagari,latin-ext&#39;);
    inset 60px 0 120px rgb(182, 187, 190),
    inset -60px 0 120px rgb(226, 243, 243); */
    /* in order: x offset, y offset, blur size, spread size, color */
-   box-shadow: 20px 4px 30px 40px rgb(255, 255, 255);
+   /*box-shadow: 20px 4px 30px 40px rgb(255, 255, 255); */
    /* box-shadow: 1px 30px 30px 2px rgb(104, 188, 237); */
 }
  .single-card:hover {
